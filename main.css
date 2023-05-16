@@ -1,0 +1,107 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mogra&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu
+{
+    width: 100%;
+    float: left;
+    background-color: #525252;
+    padding: 18px 8%;
+}
+.menu li
+{
+    float: left;
+}
+
+.menu li
+{
+    list-style-type: none;
+}
+.menu li a{
+    color: #fff;
+    margin-right:55px ;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: flex;
+}
+
+.menu li a:hover
+{
+    color: #626262;
+    transition: 0.3s;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 1px 8px 2px #888888 ;
+}
+
+/**Home*/
+.container
+{
+   background-size: cover;
+   background-image: url(/img/mainpage\ 1.svg);
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+}
+
+.texto-home
+{
+    position: absolute;
+    top: 410px;
+    left: 120px;
+    font-size: 2rem;
+    font-family:'Mogra', cursive ;
+}
+.texto-home h1 span
+{
+    color: #BE0D4D;
+}
+
+.curriculo
+{
+    position: absolute;
+    top: 880px;
+    right: 230px;
+    font-size: 1.5rem;
+    font-family:'Mogra', cursive ;
+    background-color: #D9D9D9;
+    padding-left: 60px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.curriculo a{
+    text-decoration: none;
+    color: #000;    
+}
+.curriculo a:hover
+{
+    color: #EC7861;
+}
+.curriculo a img
+{
+    padding: 1px 2px;
+}
+
+.curriculo a span{
+    color: #BE0D4D;
+}
+
+/**-----------------------------------------------------------*/
+
