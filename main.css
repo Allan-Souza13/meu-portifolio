@@ -52,7 +52,7 @@
    background-size: cover;
    background-image: url(/img/mainpage\ 1.svg);
    background-repeat: no-repeat;
-   width: 100vw;
+   max-width: 100%;
    height: 100vh;
 }
 
